@@ -1,0 +1,21 @@
+.btn {
+  width: 100px;
+  height: 50px;
+  border: 2px solid transparent;
+  border-radius: 10px;
+  margin: 0 10px;
+  font-size: 14px;
+  cursor: pointer;
+  background-color: blue;
+  color: red;
+}
+
+.btn:hover {
+  border-color: red;
+}
+
+/* 활성 상태에서 달라지는 것만 */
+.isActive {
+  background-color: blueviolet;
+  color: #fff;
+}
